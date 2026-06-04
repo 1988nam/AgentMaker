@@ -1,0 +1,16 @@
+{
+  "name": "agent-maker",
+  "version": "1.0.0",
+  "description": "LangGraph JS based Agent-making Agent",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.3.37",
+    "@langchain/google-genai": "^0.1.2",
+    "@langchain/langgraph": "^0.0.33",
+    "dotenv": "^16.4.5"
+  }
+}
